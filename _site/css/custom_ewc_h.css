@@ -1,0 +1,48 @@
+
+
+body {
+  margin: 0;
+}
+
+.banner {
+  /* this bit of markup is essential */
+  position: relative;
+  overflow: hidden;
+
+  /* do this shit by yourself */
+  background: rgba(0, 0, 0, .5) url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAMAAAADCAYAAABWKLW/AAAAF0lEQVQIW2NkYGD4z8DAwMgAI0AMDA4AI3EBBCKrOnQAAAAASUVORK5CYII=');
+  color: #fff;
+  font-family: 'Raleway', sans-serif;
+  font-size: 1em;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-align: center;
+  line-height: 100vh;
+  letter-spacing: 2px;
+}
+
+.banner__video {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: auto;
+  min-width: 100%;
+  height: auto;
+  min-height: 100%;
+  transform: translateX(-50%) translateY(-50%);
+  z-index: -1;
+}
+
+/*.navbar-default.affix {
+    background-color: #94C120;
+}*/
+
+.navbar-brand {
+height: 60px; 
+}
+.navbar-brand > img {
+display: inline;
+padding-bottom: 5px;
+padding-right: 5px;
+
+}
