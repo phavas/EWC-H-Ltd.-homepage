@@ -4,6 +4,10 @@ body {
   margin: 0;
 }
 
+.bg-primary {
+    background-color: #48a246;
+}
+
 .banner {
   /* this bit of markup is essential */
   position: relative;
@@ -48,6 +52,17 @@ body {
     background-color: #94C120;
 }*/
 
+.navbar-right {
+    float: right!important;
+    margin-right: 0px;
+    }
+
+.navbar-default .nav > li > a, .navbar-default .nav > li > a:focus {
+    text-transform: uppercase;
+    font-weight: 800;
+    font-size: 15px;
+  }
+
 .navbar-brand {
 height: 60px; 
 }
@@ -57,5 +72,3 @@ padding-bottom: 5px;
 padding-right: 5px;
 
 }
-
-
