@@ -10,7 +10,7 @@ body {
   overflow: hidden;
 
   /* do this shit by yourself */
-  background: rgba(0, 0, 0, .5) url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAMAAAADCAYAAABWKLW/AAAAF0lEQVQIW2NkYGD4z8DAwMgAI0AMDA4AI3EBBCKrOnQAAAAASUVORK5CYII=');
+  background: rgba(0, 0, 0, .4) url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAMAAAADCAYAAABWKLW/AAAAF0lEQVQIW2NkYGD4z8DAwMgAI0AMDA4AI3EBBCKrOnQAAAAASUVORK5CYII=');
   color: #fff;
   font-family: 'Raleway', sans-serif;
   font-size: 1em;
@@ -19,6 +19,17 @@ body {
   text-align: center;
   line-height: 100vh;
   letter-spacing: 2px;
+  height: 60%;
+
+}
+
+.banner_slogan h1 {
+    font-size: 36px;
+    padding-top: 15%;
+    font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    
 }
 
 .banner__video {
@@ -46,3 +57,5 @@ padding-bottom: 5px;
 padding-right: 5px;
 
 }
+
+
