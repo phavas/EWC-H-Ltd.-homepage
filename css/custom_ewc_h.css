@@ -6,6 +6,8 @@ body {
 
 .bg-primary {
     background-color: #48a246;
+    padding-top: 30px;
+    height: 50%;
 }
 
 .banner {
