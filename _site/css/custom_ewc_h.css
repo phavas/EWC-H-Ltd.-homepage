@@ -8,6 +8,16 @@ body {
     background-color: #48a246;
     padding-top: 30px;
     height: 50%;
+    border-top: 5px solid;
+    border-color: #F58224;
+    border-bottom: 4px solid;
+    border-bottom-color: #bfbfbf;
+}
+
+.section {
+    padding: 100px 0;
+    border-top: 2px solid;
+    border-color: #ddd;
 }
 
 .banner {
