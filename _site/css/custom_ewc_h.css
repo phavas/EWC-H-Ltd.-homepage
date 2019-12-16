@@ -87,5 +87,10 @@ padding-right: 5px;
 
 .modal-btn 
 {
-padding-top: 12px; 
+padding-top: 12px;
+
+}
+
+.container-fluid { 
+      margin-bottom: 20px;
 }
